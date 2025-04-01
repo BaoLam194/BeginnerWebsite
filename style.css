@@ -75,9 +75,23 @@ button{
         color:#081631;
         justify-content: space-around;
     }
+    padding-bottom:80px;
 }
 .info{
     img{
         width:200px;
+    }
+}
+.quotes{
+    background-color: #93969b;
+    padding:40px 250px;
+    .text{
+        font-size:30px;
+        font-weight:20;
+    }
+    .author{
+        margin-top:8px;
+        text-align:end;
+        font-size:16px;
     }
 }
