@@ -18,6 +18,7 @@ button{
         a{
             color:#e5e7eb;
             text-decoration:none;
+            font-size:18px;
         }
         
     }
@@ -31,4 +32,30 @@ button{
     font-weight:bold;
     margin-right:auto;
     margin-left:120px;
+}
+.showcase{
+    display:flex;
+    padding:80px 120px;
+    background-color:#1f2937;
+    align-items:center;
+}
+.showcase-infor{
+    width: 400px;
+    .title{
+        color:#f9faf8;
+        font-size:48px;
+        margin-bottom:5px;
+    }
+    .text{
+        color:#e5e7eb;
+        font-size:18px;
+        margin-bottom:10px;
+    }
+    button{
+        padding:4px;
+    }
+    margin-right:auto;
+}
+.showcase > img{
+    width:350px;
 }
